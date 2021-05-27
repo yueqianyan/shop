@@ -18,12 +18,13 @@
         <spring-boot-starter-web.version>2.3.0.RELEASE</spring-boot-starter-web.version>
         <spring-boot-starter-test.version>2.3.7.RELEASE</spring-boot-starter-test.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
-        <spring-boot-maven-plugin.version>2.3.2.RELEASE</spring-boot-maven-plugin.version>
+        <spring-boot-maven-plugin.version>2.3.7.RELEASE</spring-boot-maven-plugin.version>
         <easyexcel.version>2.2.6</easyexcel.version>
         <spring-context-support.version>4.3.13.RELEASE</spring-context-support.version>
         <junit.version>4.12</junit.version>
         <spring-cloud-starter-alibaba-nacos-discovery.version>2.2.3.RELEASE</spring-cloud-starter-alibaba-nacos-discovery.version>
         <httpclient.version>4.5.7</httpclient.version>
+        <lombok.version>1.18.12</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -76,6 +77,12 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
                 <version>${httpclient.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
